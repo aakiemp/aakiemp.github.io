@@ -1,0 +1,2 @@
+<?php
+// overrides wordpress code

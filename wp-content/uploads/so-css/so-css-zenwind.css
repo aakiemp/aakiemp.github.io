@@ -1,0 +1,103 @@
+#main-content {
+	width: 90%;
+	height: 100%;
+	padding-left: 50px;
+  	padding-right: 50px;
+	text-align: center;
+}
+
+#body-content-wrapper {
+	background-color: transparent;
+}
+
+@media screen and (max-width: 799px){
+#navmain div li {
+    background-color: #111;
+}
+}
+#navmain > div > ul > li > a {
+	color: #fff;
+}
+
+#navmain > div > ul > li > a:hover {
+	color: #fff;
+}
+
+#navmain > div > ul > .current-menu-item > a, #navmain > div > ul > .current-menu-ancestor > a, #navmain > div > ul > li > a:hover, .cart-contents-icon:hover, .search-form-icon:hover {
+    padding-bottom: 15px;
+	border-bottom: 2px solid red;
+	color: #fff;
+}
+
+
+#ftr-main {
+    clear: both;
+    background-color: transparent;
+    color: #000000;
+    margin: 20px 0 0 0;
+    padding: 10px 2% 5px 2%;
+}
+
+#footer-bottom-area {
+    clear: both;
+    padding: 15px 2% 10px 2%;
+	background-color: transparent;
+}
+
+#hdr-main a h1 {
+	color: red;
+}
+
+
+p {
+	color: red;
+}
+
+.start-button {
+    font-size: 3em;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    width: fit-content;
+}
+
+.entry-title {
+	clear: both
+}
+
+.post-edit-link {
+	font-size: .5em;
+	width: fit-content;
+}
+
+#welcome {
+	color: #fff;
+	margin-top: 150px !important;
+    padding-top: 0;
+	font-size: 6em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+
+#hdr-main {
+    clear: both;
+    background-color: #111;
+    margin: 0;
+    width: 100%;
+    z-index: 5000;
+	color: #222222;
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url(../../uploads/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+.page-after-content {
+    border-top: 0px solid #555555;
+    margin-top: 5px;
+}
